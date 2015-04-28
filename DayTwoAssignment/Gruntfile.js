@@ -14,7 +14,7 @@ module.exports = function(grunt) {
   },
 
   simplemocha: {
-     src: 'src/**/*.js'
+     src: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js']
   },
 
   watch: {

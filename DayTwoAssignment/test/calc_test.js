@@ -1,4 +1,4 @@
-var calc = require('../calc.js');
+var calc = require('../src/calc.js');
 var expect = require('chai').expect;
 
 describe('calc', function() {
