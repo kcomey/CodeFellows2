@@ -3,6 +3,12 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
   jshint: {
+    all: {
+      options: {
+        node: true,
+        simplemocha: true
+      },
+    },
     // define the files to lint
     files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js']
   },
